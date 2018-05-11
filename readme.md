@@ -49,6 +49,8 @@ nice SAO analysis and score analysis per score - https://www.datasciencecentral.
     - source code: https://github.com/nycdatasci/bootcamp007_project/tree/master/Project3-WebScraping/YisongTao
 recommendation of anime based on kaggle dataset: https://www.slideshare.net/imcinstitute/anime-recommendation-big-data-certification6
 other recommendation based on same dataset: https://medium.com/learning-machine-learning/recommending-animes-using-nearest-neighbors-61320a1a5934
+anime gender preferences reddit post: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/
+anime gender preferences tables: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/dm5rzdz/
 
 
 nápady:
