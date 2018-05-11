@@ -49,8 +49,12 @@ nice SAO analysis and score analysis per score - https://www.datasciencecentral.
     - source code: https://github.com/nycdatasci/bootcamp007_project/tree/master/Project3-WebScraping/YisongTao
 recommendation of anime based on kaggle dataset: https://www.slideshare.net/imcinstitute/anime-recommendation-big-data-certification6
 other recommendation based on same dataset: https://medium.com/learning-machine-learning/recommending-animes-using-nearest-neighbors-61320a1a5934
-anime gender preferences reddit post: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/
-anime gender preferences tables: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/dm5rzdz/
+anime gender preferences: 
+    - reddit post: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/
+    - reddit tables: https://www.reddit.com/r/anime/comments/6w60ru/gender_differences_in_anime_preferences/dm5rzdz/
+    - tumblr blog: https://bunnyadvocate.tumblr.com/post/164636686962/gender-differences-in-anime-ratings
+anime genres analysis: https://bunnyadvocate.tumblr.com/post/171165531592/mapping-the-anime-fandom?is_related_post=1
+visualization genres article: https://bunnyadvocate.tumblr.com/post/168412595697/visualising-the-vn-market?is_related_post=1
 
 
 nápady:
@@ -59,3 +63,17 @@ nápady:
 - rozdíl mezi lidmi co hodnotili málo a co hodnotili hodně anime, co viděli a co hodnotili za díla
 - korlace score, žánrů, sledovanosti, a času, a lidí, co sledují hodně, málo
 - rozclusterovat lidi na málohodnotící, a hodně hodnotící, podle střední hodnoty hodnocení apod.
+- prozkoumat recency bias u vydání anime, gender split
+- prozkoumat plan to watch listy
+
+
+popis podobnosti visual novel v grafech: 
+For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
+
+bunnyadvocate
+similarityAB = <fans who read both>/<fans who read A>
+
+similarityBA = <fans who read both>/<fans who read B>
+
+attraction = (1-sqrt((1-similarityAB)*(1-similarityBA)))^3
+the attraction between two nodes was always the same going each way, A->B and B->A or else you get messy situations where one node is constantly chasing the other as the other is repelled by it more
