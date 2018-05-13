@@ -71,6 +71,8 @@ user location and gender must be scraped from official page :(
     - they have their own dataset with over 200 million records on their github https://github.com/bote795/recommendMeSenpai
 - another recommendation system based on MAL: https://cs1951arecommender.wordpress.com/
     - maybe contact them and exchange datasets?
+- some nice visualization in gephi, but not much verbose about the methodology  https://www.reddit.com/r/dataisbeautiful/comments/37icjf/visualization_of_myanimelist_recommendations_oc/
+- described recommendation engine based on the kaggle dataset https://medium.com/learning-machine-learning/recommending-animes-using-nearest-neighbors-61320a1a5934
 
 ### DataSet
 Some data are already scraped and can be downloaded here https://uloz.to/tam/_uNFuK0YI1Vmk
