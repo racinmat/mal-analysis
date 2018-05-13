@@ -67,7 +67,10 @@ user location and gender must be scraped from official page :(
 - visualization genres article: https://bunnyadvocate.tumblr.com/post/168412595697/visualising-the-vn-market?is_related_post=1
 - various analyses from kaggle: https://www.kaggle.com/CooperUnion/anime-recommendations-database/kernels
 - anime users compatibility forum thread: https://myanimelist.net/forum/?topicid=5645
-
+- anime recommmendation based on image: http://nicolasbotello.com/recommendMeSenpai/index.html
+    - they have their own dataset with over 200 million records on their github https://github.com/bote795/recommendMeSenpai
+- another recommendation system based on MAL: https://cs1951arecommender.wordpress.com/
+    - maybe contact them and exchange datasets?
 
 ### DataSet
 Some data are already scraped and can be downloaded here https://uloz.to/tam/_uNFuK0YI1Vmk
