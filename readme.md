@@ -37,7 +37,7 @@ Anime sources:
     - https://github.com/shaldengeki/python-mal
     - other wrapper of crawler behind nice API. This one seems pretty advances. Can get username from user ID via comments. Seem to be way for discovering all users who commented more effectively. Because I know user ID of already crawled users, I can search only for missing users this way
     - can load also location and gender, which is nice
-
+    - it seems to work only with python 2, but there is fork https://github.com/pushrbx/python3-mal which just adds python 3 compatibility
     
 User sources:
 As the first source, I am using the Dibakarroy1997/myanimelist-data-set-creator repo, for that I need user IDs.
