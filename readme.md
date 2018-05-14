@@ -94,6 +94,19 @@ It contains:
 - 8 634 113 ratings in animelists
 - 13 983 unique anime ids based on ratings and animelists
 - 13 983 anime with downloaded data
+The newer version is also available in CSV form, more useful to work with. It can be downloaded here: https://uloz.to/tam/_xZxO5NeiaNqO
+It contains same data as binary files above.
+
+3rd version of harvested data can be downloaded here: https://uloz.to/tam/_jU7mHh94xIWB
+It contains both pickle and CSV files.
+It contains:
+- 302 841 unique usernames
+- 75 800 users with downloaded ratings and animelists
+- 23 753 842 animelist records
+- 14 009 170 ratings in animelists
+- 14 426 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+
 
 The native `.rick` version can be loaded into python as 
 ```python
@@ -104,9 +117,6 @@ with open('UserList.rick', 'rb') as f:
 with open('AnimeList.rick', 'rb') as f:
     animes = pickle.load(f)
 ```
-
-The newer version is also available in CSV form, more useful to work with. It can be downloaded here: https://uloz.to/tam/_xZxO5NeiaNqO
-It contains same data as the version above.
 
 The CSV can be loaded with pandas as you are used to 
 ```python
