@@ -128,6 +128,17 @@ It contains:
 - 14 269 anime with downloaded data
 - 68 975 of users also have demographics data
 
+6th version of harvested data can be downloaded here: https://uloz.to/tam/_Rl1XPwuqnsvn
+It contains only CSV files.
+It contains:
+- 302 841 unique usernames
+- 235 200 users with downloaded ratings and animelists
+- 65 233 633 animelist records
+- 37 987 916 ratings in animelists
+- 14 466 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+- 183 188 of users also have demographics data
+
 The native `.rick` version can be loaded into python as 
 ```python
 import pickle
