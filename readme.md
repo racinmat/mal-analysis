@@ -143,6 +143,6 @@ attraction = (1-sqrt((1-similarityAB)*(1-similarityBA)))^3
 the attraction between two nodes was always the same going each way, A->B and B->A or else you get messy situations where one node is constantly chasing the other as the other is repelled by it more
 
 
-
-
-
+data notes: days spent watching anime should not be takes seriously because of mismatches. E.g. here: 
+https://myanimelist.net/profile/Tationika 1 332.1 days are spent watching anime because there are 9001 rewatches for Akira and Perfect Blue
+https://graph.anime.plus/Tationika/profile?referral=search
