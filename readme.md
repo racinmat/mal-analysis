@@ -162,6 +162,16 @@ or you just can open it in Excel or whatever.
 
 ##### just other stuff and notes
 
+tools and other ideas: 
+voyager - web based tool for datasets exploratory analysis:
+- github: https://github.com/vega/voyager
+- online demo: https://vega.github.io/voyager/
+- paper: http://www.cs.tufts.edu/comp/250VIS/papers/2015-Voyager-InfoVis.pdf
+- university page: https://idl.cs.washington.edu/papers/voyager/
+
+vega-lite - other tool for visualizations, seems nice:
+- university page: http://idl.cs.washington.edu/papers/vega-lite/
+
 nápady:
 - zjistit velké rozdíly v hodnocení anime, s velkým rozptylem, kde je hodnotí hodně lidí velmi kladně a hodně lidí velmi záprně
 - podívat se na rozdíly mezi hodnoceními v čase
