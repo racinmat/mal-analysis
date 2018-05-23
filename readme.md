@@ -169,8 +169,11 @@ voyager - web based tool for datasets exploratory analysis:
 - paper: http://www.cs.tufts.edu/comp/250VIS/papers/2015-Voyager-InfoVis.pdf
 - university page: https://idl.cs.washington.edu/papers/voyager/
 
-vega-lite - other tool for visualizations, seems nice:
+vega-lite - other tool for visualizations, specifications in json:
 - university page: http://idl.cs.washington.edu/papers/vega-lite/
+
+lyra - completely code-less, only web-based GUI:
+- university page: https://idl.cs.washington.edu/papers/lyra/
 
 nápady:
 - zjistit velké rozdíly v hodnocení anime, s velkým rozptylem, kde je hodnotí hodně lidí velmi kladně a hodně lidí velmi záprně
