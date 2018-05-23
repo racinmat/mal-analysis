@@ -94,6 +94,50 @@ It contains:
 - 8 634 113 ratings in animelists
 - 13 983 unique anime ids based on ratings and animelists
 - 13 983 anime with downloaded data
+The newer version is also available in CSV form, more useful to work with. It can be downloaded here: https://uloz.to/tam/_xZxO5NeiaNqO
+It contains same data as binary files above.
+
+3rd version of harvested data can be downloaded here: https://uloz.to/tam/_jU7mHh94xIWB
+It contains both pickle and CSV files.
+It contains:
+- 302 841 unique usernames
+- 75 800 users with downloaded ratings and animelists
+- 23 753 842 animelist records
+- 14 009 170 ratings in animelists
+- 14 426 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+
+4th version of harvested data can be downloaded here: https://uloz.to/tam/_c1ESfrgpyqrJ
+It contains both pickle and CSV files.
+It contains:
+- 302 841 unique usernames
+- 125 200 users with downloaded ratings and animelists
+- 39 184 237 animelist records
+- 23 096 715 ratings in animelists
+- 14 430 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+
+5th version of harvested data can be downloaded here: https://uloz.to/tam/_1VwDx2NIBaYh
+It contains both pickle and CSV files.
+It contains:
+- 302 841 unique usernames
+- 146 700 users with downloaded ratings and animelists
+- 45 626 200 animelist records
+- 26 832 473 ratings in animelists
+- 14 441 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+- 68 975 of users also have demographics data
+
+6th version of harvested data can be downloaded here: https://uloz.to/tam/_Rl1XPwuqnsvn
+It contains only CSV files.
+It contains:
+- 302 841 unique usernames
+- 235 200 users with downloaded ratings and animelists
+- 65 233 633 animelist records
+- 37 987 916 ratings in animelists
+- 14 466 unique anime ids based on ratings and animelists
+- 14 269 anime with downloaded data
+- 183 188 of users also have demographics data
 
 The native `.rick` version can be loaded into python as 
 ```python
@@ -104,9 +148,6 @@ with open('UserList.rick', 'rb') as f:
 with open('AnimeList.rick', 'rb') as f:
     animes = pickle.load(f)
 ```
-
-The newer version is also available in CSV form, more useful to work with. It can be downloaded here: https://uloz.to/tam/_xZxO5NeiaNqO
-It contains same data as the version above.
 
 The CSV can be loaded with pandas as you are used to 
 ```python
@@ -120,6 +161,19 @@ animeLists = pd.read_csv('UserAnimeList.csv')
 or you just can open it in Excel or whatever.    
 
 ##### just other stuff and notes
+
+tools and other ideas: 
+voyager - web based tool for datasets exploratory analysis:
+- github: https://github.com/vega/voyager
+- online demo: https://vega.github.io/voyager/
+- paper: http://www.cs.tufts.edu/comp/250VIS/papers/2015-Voyager-InfoVis.pdf
+- university page: https://idl.cs.washington.edu/papers/voyager/
+
+vega-lite - other tool for visualizations, specifications in json:
+- university page: http://idl.cs.washington.edu/papers/vega-lite/
+
+lyra - completely code-less, only web-based GUI:
+- university page: https://idl.cs.washington.edu/papers/lyra/
 
 nápady:
 - zjistit velké rozdíly v hodnocení anime, s velkým rozptylem, kde je hodnotí hodně lidí velmi kladně a hodně lidí velmi záprně
