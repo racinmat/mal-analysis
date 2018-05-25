@@ -175,6 +175,12 @@ vega-lite - other tool for visualizations, specifications in json:
 lyra - completely code-less, only web-based GUI:
 - university page: https://idl.cs.washington.edu/papers/lyra/
 
+jinak klasika: paraview, tableau, gephi
+
+pro python: networkx pro grafy, plot.ly + dash na interaktivní vizualizace https://dash.plot.ly/getting-started
+
+d3 for nice javascript graphs: https://github.com/d3/d3/wiki/gallery
+
 nápady:
 - zjistit velké rozdíly v hodnocení anime, s velkým rozptylem, kde je hodnotí hodně lidí velmi kladně a hodně lidí velmi záprně
 - podívat se na rozdíly mezi hodnoceními v čase
@@ -183,8 +189,10 @@ nápady:
 - rozclusterovat lidi na málohodnotící, a hodně hodnotící, podle střední hodnoty hodnocení apod.
 - prozkoumat recency bias u vydání anime, gender split
 - prozkoumat plan to watch listy
-
-
+- prozkoumat sledovatnost žánrů v závislosti na zemi, věku, pohlaví, ale i času, a časový vývoj různých věcí, zkusit změnu trendů v čase, vývoj počtu děl v žánru, průměrné oblíbenosti žánrů v čase apod
+- udělat časový vývoj podobně jako https://www.gapminder.org/videos/200-years-that-changed-the-world/?
+- vývoj do spiral chartu, například průměrné hodnocení anime podle data vydání: https://stackoverflow.com/questions/46575723/creating-a-temporal-range-time-series-spiral-plot
+- časový výoj počtu anime různých žánrů a proměrné hodnocení jako video podobné 200 years? průměr hodnocení na ose a počet kusů jako velikost kolečka? 
 popis podobnosti visual novel v grafech: 
 For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
 
@@ -200,3 +208,6 @@ the attraction between two nodes was always the same going each way, A->B and B-
 data notes: days spent watching anime should not be takes seriously because of mismatches. E.g. here: 
 https://myanimelist.net/profile/Tationika 1 332.1 days are spent watching anime because there are 9001 rewatches for Akira and Perfect Blue
 https://graph.anime.plus/Tationika/profile?referral=search
+
+showing piecharts on world map: http://www.geophysique.be/2010/11/26/matplotlib-basemap-tutorial-06-real-case-pie-charts/
+
