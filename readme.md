@@ -197,7 +197,7 @@ nápady:
 - rozclusterovat lidi na málohodnotící, a hodně hodnotící, podle střední hodnoty hodnocení apod.
 - prozkoumat recency bias u vydání anime, gender split
 - prozkoumat plan to watch listy
-
+- zjistit vztahy mezi žánry na základě toho, kolik anime dané řánry sdílí (vzdálenost žánrů podle anime, co je mají, a embedding, případě ukáztat v čase)
 
 popis podobnosti visual novel v grafech: 
 For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
