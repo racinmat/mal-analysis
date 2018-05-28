@@ -139,6 +139,20 @@ It contains:
 - 14 269 anime with downloaded data
 - 183 188 of users also have demographics data
 
+7th, final version of harvested data can be downloaded here: https://uloz.to/tam/_5fvufuNgAMBa
+It contains only CSV files.
+It contains:
+- 302 841 unique usernames
+- 302 675 users with downloaded ratings and animelists
+- 80 076 112 animelist records
+- 46 358 322 ratings in animelists
+- 14 478 unique anime ids based on ratings and animelists
+- 14 478 anime with downloaded data
+- 302 573 of users also have demographics data loaded
+- 217 817 of them have gender
+- 217 800 of them have ratings and gender
+- 282 918 of them have all annotations and some anime in animelist
+
 The native `.rick` version can be loaded into python as 
 ```python
 import pickle
@@ -193,6 +207,8 @@ nápady:
 - udělat časový vývoj podobně jako https://www.gapminder.org/videos/200-years-that-changed-the-world/?
 - vývoj do spiral chartu, například průměrné hodnocení anime podle data vydání: https://stackoverflow.com/questions/46575723/creating-a-temporal-range-time-series-spiral-plot
 - časový výoj počtu anime různých žánrů a proměrné hodnocení jako video podobné 200 years? průměr hodnocení na ose a počet kusů jako velikost kolečka? 
+- zjistit vztahy mezi žánry na základě toho, kolik anime dané řánry sdílí (vzdálenost žánrů podle anime, co je mají, a embedding, případě ukáztat v čase)
+
 popis podobnosti visual novel v grafech: 
 For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
 
