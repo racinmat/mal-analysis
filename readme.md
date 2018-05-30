@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿# Anime analysis
+﻿# Anime analysis
 
 This is repo for analysing anime from big anime databases.
 The main datasource will be MyAnimeList (MAL), and maybe later some others.
@@ -73,6 +73,7 @@ user location and gender must be scraped from official page :(
     - maybe contact them and exchange datasets?
 - some nice visualization in gephi, but not much verbose about the methodology  https://www.reddit.com/r/dataisbeautiful/comments/37icjf/visualization_of_myanimelist_recommendations_oc/
 - described recommendation engine based on the kaggle dataset https://medium.com/learning-machine-learning/recommending-animes-using-nearest-neighbors-61320a1a5934
+- analysis of movies based on netflix dataset https://wiki.cs.umd.edu/cmsc734/index.php?title=Netflix:_Visual_Analysis_for_User_Movie_Preferences
 
 ### DataSet
 Some data are already scraped and can be downloaded here https://uloz.to/tam/_uNFuK0YI1Vmk
@@ -153,6 +154,7 @@ It contains:
 - 217 800 of them have ratings and gender
 - 282 918 of them have all annotations and some anime in animelist
 
+last dataset with filtered data (only users with location, birth date and gender) can be downloaded here: https://uloz.to/tam/_T8ba4GEWWEpe
 The native `.rick` version can be loaded into python as 
 ```python
 import pickle
@@ -207,7 +209,11 @@ nápady:
 - udělat časový vývoj podobně jako https://www.gapminder.org/videos/200-years-that-changed-the-world/?
 - vývoj do spiral chartu, například průměrné hodnocení anime podle data vydání: https://stackoverflow.com/questions/46575723/creating-a-temporal-range-time-series-spiral-plot
 - časový výoj počtu anime různých žánrů a proměrné hodnocení jako video podobné 200 years? průměr hodnocení na ose a počet kusů jako velikost kolečka? 
+- u těch žánrů to zkusit kumulativně, anime do té doby, a anime co vyšly v daném roce, nebo v intrvalu např. 5 let a posouvat interval v čase
 - zjistit vztahy mezi žánry na základě toho, kolik anime dané řánry sdílí (vzdálenost žánrů podle anime, co je mají, a embedding, případě ukáztat v čase)
+- podívat se na nejdropovanější série
+- korelace mezi dokončenými a dropnutými žánry?
+- zkusit nějaké graphical models a podmíněné grafové věci jako jsme měli v SMU?
 
 popis podobnosti visual novel v grafech: 
 For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
