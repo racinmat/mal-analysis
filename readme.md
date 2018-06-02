@@ -1,4 +1,4 @@
-﻿# Anime analysis
+# Anime analysis
 
 This is repo for analysing anime from big anime databases.
 The main datasource will be MyAnimeList (MAL), and maybe later some others.
@@ -214,6 +214,19 @@ nápady:
 - podívat se na nejdropovanější série
 - korelace mezi dokončenými a dropnutými žánry?
 - zkusit nějaké graphical models a podmíněné grafové věci jako jsme měli v SMU?
+- ukázt source v závislosti na čase u anime, i žánry a studia v čase
+- ukázat jointploty kde, bude to vypadat hezky
+- zkusit metriky co popisuje Šlerka http://databoutique.cz/post/161312186128/slu%C5%A1n%C3%AD-lid%C3%A9-na-facebooku
+- spojitost studií a žánrů?
+
+strukturova přednášku: 
+- pipeline a obecné věci
+- současný stav (anime, useři a vůbec)
+- nějaké top 10 apod.?
+- vývoj v čase (anime, useři, možná i hodnocení apod.) - kde na ose X je čas
+- sem možná vývoj v čase jako gify?
+- složitější věci, jako jsou vzdálenosti, embedding apod.
+
 
 popis podobnosti visual novel v grafech: 
 For the attraction value specifically, IIRC, it went along these lines (for nodes A and B)
