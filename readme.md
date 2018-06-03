@@ -217,7 +217,9 @@ nápady:
 - ukázt source v závislosti na čase u anime, i žánry a studia v čase
 - ukázat jointploty kde, bude to vypadat hezky
 - zkusit metriky co popisuje Šlerka http://databoutique.cz/post/161312186128/slu%C5%A1n%C3%AD-lid%C3%A9-na-facebooku
-- spojitost studií a žánrů?
+- spojitost studií a žánrů, prozkoumat žánrové zastoupení, demografii fanoušků a vývoj v čase u jednotlivých studií
+	- tohle nešlo dohledat jinde a tím pádem to může být hodně zajímavé
+	- souvislost průměrného hodnocení a žánrů u jednotlivých studií? komu jaký žánr "jde lépe"?
 
 strukturova přednášku: 
 - pipeline a obecné věci
