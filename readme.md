@@ -220,14 +220,20 @@ nápady:
 - spojitost studií a žánrů, prozkoumat žánrové zastoupení, demografii fanoušků a vývoj v čase u jednotlivých studií
 	- tohle nešlo dohledat jinde a tím pádem to může být hodně zajímavé
 	- souvislost průměrného hodnocení a žánrů u jednotlivých studií? komu jaký žánr "jde lépe"?
+- zkusit znormovat hodnocení anime na normální rozdělení s mean=5.5, upravit podle toho hodnocení a ukázat, jak si některé tituly povedou
+- zkusit embeddované žánry sgroupovat do menšího počtu žánrů -> představit menší počet ensemble žánrů?
+- zkusit rozdělit anime podle ratingů? (slide na anime is not for children apod.), a pak zkusit studia a ratingy apod.
 
 strukturova přednášku: 
 - pipeline a obecné věci
 - současný stav (anime, useři a vůbec)
+	- useři - jen určitá věková skupina apod.
+	- anime, nezávisle na userech
 - nějaké top 10 apod.?
 - vývoj v čase (anime, useři, možná i hodnocení apod.) - kde na ose X je čas
 - sem možná vývoj v čase jako gify?
 - složitější věci, jako jsou vzdálenosti, embedding apod.
+	- u metrik (cosine similarity apod.) dát vzorec a malou ukázku pomocí vektorů a šipek na podporu reality
 
 
 popis podobnosti visual novel v grafech: 
