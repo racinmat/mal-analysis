@@ -223,6 +223,21 @@ nápady:
 - zkusit znormovat hodnocení anime na normální rozdělení s mean=5.5, upravit podle toho hodnocení a ukázat, jak si některé tituly povedou
 - zkusit embeddované žánry sgroupovat do menšího počtu žánrů -> představit menší počet ensemble žánrů?
 - zkusit rozdělit anime podle ratingů? (slide na anime is not for children apod.), a pak zkusit studia a ratingy apod.
+- funny nápad:
+	- stahnout data o seyiu, a v jakých anime byli
+	- definovat Erdosovo číslo
+	- napočítat to samé pro seiyu (kolaborace = stejné anime)
+	- definovat Picovo číslo jakožto kolaborativní vzdálenost os seiyu Pica z Boku no Pico
+	- nějak vizualizovat, napočítat průměrnou vzdálenost apod.
+	- ukázat na tom míru kolaborace mezi seiyu
+	- už existuje pro herce Bacona https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon#Bacon_numbers
+	- zmínit nejdříve Erdose, potom Bacona a vybrat nějakého slavného / neobvyklého seiyu, a definovat čísla pro seiyu
+	- použít někoho z Hanazawa Kana a Kamiya Hiroshi, ty jsi nejznámější
+- spočítat vlastní popularity, porocnat s tou MALovou?
+- ukázat rozložení žánrů a studií pro populární anime (top 2k anime?) a porovnat s rozložením pro všechna
+- vztah mezi řánry a ratingy? jak hodnocení, tak omezení na věkovou kategorii
+- srovnat jak velká část anime je skutečně pro děti
+- co porovnávám v čase, porovnat i u všech X populárních anime (jsou tam různá zastoupení žánrů apod.?)
 
 strukturova přednášku: 
 - pipeline a obecné věci
