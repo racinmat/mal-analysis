@@ -201,7 +201,7 @@ nápady:
 - zjistit velké rozdíly v hodnocení anime, s velkým rozptylem, kde je hodnotí hodně lidí velmi kladně a hodně lidí velmi záprně
 - podívat se na rozdíly mezi hodnoceními v čase
 - rozdíl mezi lidmi co hodnotili málo a co hodnotili hodně anime, co viděli a co hodnotili za díla
-- korlace score, žánrů, sledovanosti, a času, a lidí, co sledují hodně, málo
+- korelace score, žánrů, sledovanosti, a času, a lidí, co sledují hodně, málo
 - rozclusterovat lidi na málohodnotící, a hodně hodnotící, podle střední hodnoty hodnocení apod.
 - prozkoumat recency bias u vydání anime, gender split
 - prozkoumat plan to watch listy
