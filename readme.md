@@ -269,3 +269,4 @@ https://graph.anime.plus/Tationika/profile?referral=search
 
 showing piecharts on world map: http://www.geophysique.be/2010/11/26/matplotlib-basemap-tutorial-06-real-case-pie-charts/
 
+ukázat gif s porovnáním boxplotů a violit plotů a proč je lepší používat violin ploty? pokud tam budu nějaké violin ploty mít ofc
