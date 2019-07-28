@@ -48,3 +48,30 @@ def get_users_stats_episodes_cached():
         return users_stats_episodes
 
     raise Exception('cache not found, must run the basic_cleanup_animelists.ipynb')
+
+
+def get_usernames_to_keep_cached():
+    cache_name = 'cache_usernames_after_filtering.csv'
+    if osp.isfile(cache_name):
+        usernames_to_keep = pd.read_csv(cache_name, index_col=0, encoding='utf-8')
+        return usernames_to_keep
+
+    raise Exception('cache not found, must run the basic_cleanup_animes_and_users.ipynb')
+
+
+def get_anime_ids_after_username_clear_cached():
+    cache_name = 'cache_anime_ids_after_username_clear.csv'
+    if osp.isfile(cache_name):
+        anime_ids_to_keep = pd.read_csv(cache_name, encoding='utf-8')
+        return anime_ids_to_keep
+
+    raise Exception('cache not found, must run the basic_cleanup_animelists.ipynb')
+
+
+def get_anime_ids_after_cleaning_cached():
+    cache_name = 'cache_anime_ids_after_cleaning.csv'
+    if osp.isfile(cache_name):
+        anime_ids_to_keep = pd.read_csv(cache_name, encoding='utf-8')
+        return anime_ids_to_keep
+
+    raise Exception('cache not found, must run the basic_cleanup_animes_and_users.ipynb')
