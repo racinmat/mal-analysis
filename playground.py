@@ -94,6 +94,7 @@ def tree_to_table_old(clf, target_column):
     df = pd.DataFrame({target_column: classes[-1], 'probability': (distr.max(axis=2) / distr.sum(axis=2))[:, 0]},
                       index=indices)
     df['probability'] = df['probability'].apply(lambda x: "{0:.2f}%".format(x * 100))
+    df.groupby()
     return df
 
 
