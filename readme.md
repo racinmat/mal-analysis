@@ -20,7 +20,14 @@ Anime sources:
     
 - Kuristina - API for animelists and manga lists, provides both json and xml responses: https://github.com/TimboKZ/kuristina
 
-- there is kaggle CSV dataset 
+- there is the main kaggle CSV dataset
+    - https://www.kaggle.com/azathoth42/myanimelist
+    - contains all needed data
+
+- MAL anime data from 31.5.2019 
+    - https://www.reddit.com/r/anime/comments/bvvggq/anime_genres_over_the_years_19632018/eqwx2nh
+
+- there other kaggle CSV dataset 
     - https://www.kaggle.com/CooperUnion/anime-recommendations-database
     - scripts for datamining from MAL https://www.kaggle.com/CooperUnion/anime-recommendations-database/discussion/47500
         - the github repo: https://github.com/Dibakarroy1997/myanimelist-data-set-creator
