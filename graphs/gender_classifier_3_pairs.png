@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Shoujo_ShounenAi &le; 0.083<br/>gini = 0.457<br/>samples = 108711<br/>value = [37330, 70880, 501]<br/>class = Male>, fillcolor="#39e58178"] ;
+1 [label=<Sci-Fi_Ecchi &le; 0.217<br/>gini = 0.217<br/>samples = 74958<br/>value = [8880, 65750, 328]<br/>class = Male>, fillcolor="#39e581db"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<MartialArts_Game &le; 0.05<br/>gini = 0.449<br/>samples = 11094<br/>value = [3606, 7405, 83]<br/>class = Male>, fillcolor="#39e58181"] ;
+1 -> 2 ;
+3 [label=<gini = 0.505<br/>samples = 4964<br/>value = [2300, 2626, 38]<br/>class = Male>, fillcolor="#39e5811f"] ;
+2 -> 3 ;
+4 [label=<gini = 0.347<br/>samples = 6130<br/>value = [1306, 4779, 45]<br/>class = Male>, fillcolor="#39e581b8"] ;
+2 -> 4 ;
+5 [label=<ShounenAi_Yaoi &le; 0.01<br/>gini = 0.159<br/>samples = 63864<br/>value = [5274, 58345, 245]<br/>class = Male>, fillcolor="#39e581e7"] ;
+1 -> 5 ;
+6 [label=<gini = 0.135<br/>samples = 60703<br/>value = [4199, 56307, 197]<br/>class = Male>, fillcolor="#39e581eb"] ;
+5 -> 6 ;
+7 [label=<gini = 0.468<br/>samples = 3161<br/>value = [1075, 2038, 48]<br/>class = Male>, fillcolor="#39e58176"] ;
+5 -> 7 ;
+8 [label=<Shoujo_ShounenAi &le; 0.112<br/>gini = 0.266<br/>samples = 33753<br/>value = [28450, 5130, 173]<br/>class = Female>, fillcolor="#e58139d0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<Harem_Mecha &le; 0.148<br/>gini = 0.482<br/>samples = 6560<br/>value = [3999, 2508, 53]<br/>class = Female>, fillcolor="#e581395e"] ;
+8 -> 9 ;
+10 [label=<gini = 0.41<br/>samples = 4541<br/>value = [3264, 1227, 50]<br/>class = Female>, fillcolor="#e581399d"] ;
+9 -> 10 ;
+11 [label=<gini = 0.465<br/>samples = 2019<br/>value = [735, 1281, 3]<br/>class = Male>, fillcolor="#39e5816c"] ;
+9 -> 11 ;
+12 [label=<Sci-Fi_Ecchi &le; 0.309<br/>gini = 0.182<br/>samples = 27193<br/>value = [24451, 2622, 120]<br/>class = Female>, fillcolor="#e58139e3"] ;
+8 -> 12 ;
+13 [label=<gini = 0.149<br/>samples = 24493<br/>value = [22519, 1861, 113]<br/>class = Female>, fillcolor="#e58139e9"] ;
+12 -> 13 ;
+14 [label=<gini = 0.409<br/>samples = 2700<br/>value = [1932, 761, 7]<br/>class = Female>, fillcolor="#e581399a"] ;
+12 -> 14 ;
+}

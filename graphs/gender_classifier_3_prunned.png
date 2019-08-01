@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Shoujo &le; 0.081<br/>gini = 0.457<br/>samples = 108711<br/>value = [37330, 70880, 501]<br/>class = Male>, fillcolor="#39e58178"] ;
+1 [label=<ShounenAi &le; 0.011<br/>gini = 0.242<br/>samples = 76698<br/>value = [10361, 65977, 360]<br/>class = Male>, fillcolor="#39e581d6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label=<Ecchi &le; 0.021<br/>gini = 0.199<br/>samples = 72645<br/>value = [7810, 64542, 293]<br/>class = Male>, fillcolor="#39e581df"] ;
+1 -> 3 ;
+5 [label=<gini = 0.433<br/>samples = 8932<br/>value = [2768, 6132, 32]<br/>class = Male>, fillcolor="#39e5818b"] ;
+3 -> 5 ;
+6 [label=<gini = 0.153<br/>samples = 63713<br/>value = [5042, 58410, 261]<br/>class = Male>, fillcolor="#39e581e8"] ;
+3 -> 6 ;
+4 [label=<gini = 0.478<br/>samples = 4053<br/>value = [2551, 1435, 67]<br/>class = Female>, fillcolor="#e581396d"] ;
+1 -> 4 ;
+2 [label=<Shoujo &le; 0.115<br/>gini = 0.267<br/>samples = 32013<br/>value = [26969, 4903, 141]<br/>class = Female>, fillcolor="#e58139d0"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<ShounenAi &le; 0.005<br/>gini = 0.447<br/>samples = 8510<br/>value = [5692, 2759, 59]<br/>class = Female>, fillcolor="#e5813982"] ;
+2 -> 7 ;
+9 [label=<gini = 0.504<br/>samples = 4581<br/>value = [2335, 2226, 20]<br/>class = Female>, fillcolor="#e581390c"] ;
+7 -> 9 ;
+10 [label=<gini = 0.251<br/>samples = 3929<br/>value = [3357, 533, 39]<br/>class = Female>, fillcolor="#e58139d4"] ;
+7 -> 10 ;
+8 [label=<gini = 0.172<br/>samples = 23503<br/>value = [21277, 2144, 82]<br/>class = Female>, fillcolor="#e58139e4"] ;
+2 -> 8 ;
+}

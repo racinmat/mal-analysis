@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<Shoujo_ShounenAi &le; 0.083<br/>gini = 0.457<br/>samples = 108711<br/>value = [37330, 70880, 501]<br/>class = Male>, fillcolor="#39e58178"] ;
+1 [label=<Sci-Fi_Ecchi &le; 0.217<br/>gini = 0.217<br/>samples = 74958<br/>value = [8880, 65750, 328]<br/>class = Male>, fillcolor="#39e581db"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.449<br/>samples = 11094<br/>value = [3606, 7405, 83]<br/>class = Male>, fillcolor="#39e58181"] ;
+1 -> 2 ;
+3 [label=<gini = 0.159<br/>samples = 63864<br/>value = [5274, 58345, 245]<br/>class = Male>, fillcolor="#39e581e7"] ;
+1 -> 3 ;
+4 [label=<Shoujo_ShounenAi &le; 0.112<br/>gini = 0.266<br/>samples = 33753<br/>value = [28450, 5130, 173]<br/>class = Female>, fillcolor="#e58139d0"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label=<gini = 0.482<br/>samples = 6560<br/>value = [3999, 2508, 53]<br/>class = Female>, fillcolor="#e581395e"] ;
+4 -> 5 ;
+6 [label=<gini = 0.182<br/>samples = 27193<br/>value = [24451, 2622, 120]<br/>class = Female>, fillcolor="#e58139e3"] ;
+4 -> 6 ;
+}
