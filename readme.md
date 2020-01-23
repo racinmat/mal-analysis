@@ -4,6 +4,10 @@ This is repo for analysing anime from big anime databases.
 The main datasource will be MyAnimeList (MAL), and maybe later some others.
 
 Anime sources:
+- The main source: kaggle CSV dataset, all data used in this analysis is based on this data.
+    - https://www.kaggle.com/azathoth42/myanimelist
+    - contains all needed data
+
 - There is official API for MAL
     - docs: https://myanimelist.net/modules.php?go=api
 
@@ -19,10 +23,6 @@ Anime sources:
     - but it is not working
     
 - Kuristina - API for animelists and manga lists, provides both json and xml responses: https://github.com/TimboKZ/kuristina
-
-- there is the main kaggle CSV dataset
-    - https://www.kaggle.com/azathoth42/myanimelist
-    - contains all needed data
 
 - MAL anime data from 31.5.2019 
     - https://www.reddit.com/r/anime/comments/bvvggq/anime_genres_over_the_years_19632018/eqwx2nh
